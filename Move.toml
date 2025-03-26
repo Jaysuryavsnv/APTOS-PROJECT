@@ -1,0 +1,15 @@
+[package]
+name = "stablecoin-app"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule = "0x175881b99e7d1e4326df49c7ed5ddc66a23998dc81a64c860f1c45a5e08aa291"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
